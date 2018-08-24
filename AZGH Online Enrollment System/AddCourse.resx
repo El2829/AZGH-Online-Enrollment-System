@@ -117,23 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="211651-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\211651-1281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Cancel_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIgAAAApCAYAAADu+mEZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIMSURBVHhe7ds7TxRhFIdxP4edlaWSeCvIwoJcwmbZa8Ia
+        TFDiupjY+B0srI2FX8KEitAQKjoLW0NhwcVVEsQE6uP8Z+LKZs+e3n2f4lfN7FLMk5l5l/PeuHm3ZMA4
+        BIIQgSBEIAgRCEIEglAYyK2pGevOL9pOp2qfN+p23G3Z1as2/nO6jrqee+s1e72wZLfvzbjXX8YG0pl9
+        bCfZF/182bJL549gMpz12vY9u8ZvFpfcDkYCUU3ba1Xrc7dISr/XsoOnNbtzf3aoh6FAFMfhZsMutvwv
+        weQ73Gzag4dlPxDdOYgDej8ZCUTvHDxWIHoveVdd/heIVit6IfVORppOu02bflQuAtFSR9V4JyJNv7da
+        9qFeKQLRetg7CWn7+rxRBPLtRdM9AWnTXSQP5JzHC8bIA/EOAEIgCBEIQgSCEIEgRCAIEQhCBIJQHoh+
+        MfMOAnkgzJpinDwQjZp5B5E2/Y8uD+RtZdl+MUmG67IePq1Vi0A0g6jJZvdEJEnThRtzC0Ug8r62Ymc9
+        IkHbLrJFy+6T1eGZVI0dfnlWdz+AtBx1m4PNVINARDOIxwwPJe00e7TUS/ODJoYCkZXpuXxvzDnvJEnR
+        Y0V3jutxyEggosfNx0bF+oqE1c1E07Zaba/dX6+5e3TdQP5STVrq/OBuMpE0aqqN+dqg711/CQMBCAQh
+        AkGIQBAiEARK9ge22TsR//UYygAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="1954552-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1954552-1281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Azgh-Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Azgh-Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="134216-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\134216-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1954538-32 (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1954538-32 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1954538-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1954538-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Save_btn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIgAAAApCAYAAADu+mEZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIZSURBVHhe7dtBSxtBGMbxfo5WKkqtoiiykRBnQw4iFgJa
+        SnsptIjU9tBDlRZFaD1oiDFNPFmohwoehF5KEOsaIv1ur/vsYmrIm/eezHP4nXayHvbPZibOPHg4WxCi
+        XhgImRgImRgImRgImRgImcxAHgUL8vT5Rwk+/5Tst3Nx5b+SP/pHfQ7PEc8zs/VLxl9+kqHskvr8oWcg
+        T4pr4g6uxFUjydf1P0T9L6w2xVUimXi1qXbQFQhqCjZ+xB+6Um9Igyk8vJa5nTN5nCt29NARCOLIlRrx
+        G+NGvQkNvtx+Q4bzK3ogeHMwDsL8pCuQZM7BrxWKue9NmVrd/R8IViuYkGqDyU94WQwXXqSBYKmD2aw2
+        kPwU1lsyvV5OA8F6WBtEHqvHE9a9P2kg86ULfRB5LYwXLEkgYTwp0QYQJYFoF4iAgZCJgZCJgZCJgZCJ
+        gZCJgZCJgZApCQS/mGkXiZJAuNeUekkCwVYz7SL5Df+jSwKZfPNVwlpLHUT+CjaO00CwB5G7yeg+dxjJ
+        2PKHNBCYflcSV71WB5NnajcSfDnp3JOKbYfZ3d/6B8grrnzZPkzVDgSwB9FVuKLxGZ7/6LO37SY6AoGR
+        xdfJ2RjuUfULFil4c9yPA7oCAXzdzLyvxBMVTlwHXj1+a1QjyWyfqmd01UDuoCYsdTCjVW9OfQ1bTXEw
+        Hwf0tecPZiBEDIRMDIRMDIRMDIQMBbkF5IOE/CntS3AAAAAASUVORK5CYII=
+</value>
   </data>
 </root>

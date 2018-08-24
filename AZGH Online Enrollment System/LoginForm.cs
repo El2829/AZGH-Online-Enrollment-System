@@ -19,10 +19,11 @@ namespace AZGH_Online_Enrollment_System
             Connection.setServer("127.0.0.1");
             Connection.setPort("3307");
             Connection.setUser("personal");
-            Connection.setDatabase("lib");
+            Connection.setDatabase("oes");
             Connection.setPassword("borinaga09");
             dbconnection = new Database(Connection.getConnectionStr());
             InitializeComponent();
+            //Color myRgbColor = new Color();
         }
         private void validate(string user, string pass)
         {
@@ -36,11 +37,11 @@ namespace AZGH_Online_Enrollment_System
         }
         private bool validate_login(string user, string pass)
         {
-            dbconnection.openConnection();
+            dbconnection.openConnection(); 
             string query = "Select * from tblaccount where username=@user and password=@pass ";
             MySqlCommand cmd = new MySqlCommand(query, dbconnection.getConnection());
             cmd.Parameters.AddWithValue("@user", user);
-            cmd.Parameters.AddWithValue("@pass", pass);
+            cmd.Parameters.AddWithValue("@pass", MD5Hasher.GetMd5Hash(pass));
             MySqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
             {
@@ -56,7 +57,7 @@ namespace AZGH_Online_Enrollment_System
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void CloseImageButton_Click(object sender, EventArgs e)
@@ -85,20 +86,21 @@ namespace AZGH_Online_Enrollment_System
 
         private void Login_btn_Click(object sender, EventArgs e)
         {
-            string user = Login_txt.Text;
-            string pass = Password_Txt.Text;
+            string user = Login_txt.Text; //variable for Username
+            string pass = Password_Txt.Text; //variable for Password
             if (user == "Enter Username" || pass == "Enter Password")
             {
                 Password_Txt.ForeColor = Color.Red;
                 Login_txt.ForeColor = Color.Red;
                 return;
             }
-            bool r = validate_login(user, pass);
+            bool r = validate_login(user, pass); 
             if (r)
             {
+                //
                 this.Hide();
                 MainForm Form = new MainForm();
-                Form.Show();
+                Form.Show(); 
             }
             else
                 MessageBox.Show("Incorrect Login Credentials", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);

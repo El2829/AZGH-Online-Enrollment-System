@@ -49,7 +49,7 @@
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 15;
+            this.bunifuElipse1.ElipseRadius = 10;
             this.bunifuElipse1.TargetControl = this;
             // 
             // Password_Txt
@@ -98,7 +98,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(87)))), ((int)(((byte)(155)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(97)))), ((int)(((byte)(163)))));
             this.panel1.Controls.Add(this.CloseImageButton);
             this.panel1.Controls.Add(this.MinimizeImageButton);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -121,9 +121,9 @@
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(107, 254);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(107, 249);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(139, 23);
             this.bunifuCustomLabel1.TabIndex = 63;
@@ -132,9 +132,9 @@
             // Menulbl
             // 
             this.Menulbl.AutoSize = true;
-            this.Menulbl.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Menulbl.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Menulbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.Menulbl.Location = new System.Drawing.Point(79, 229);
+            this.Menulbl.Location = new System.Drawing.Point(79, 224);
             this.Menulbl.Name = "Menulbl";
             this.Menulbl.Size = new System.Drawing.Size(191, 23);
             this.Menulbl.TabIndex = 62;
@@ -154,7 +154,7 @@
             // 
             // CloseImageButton
             // 
-            this.CloseImageButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(87)))), ((int)(((byte)(155)))));
+            this.CloseImageButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(97)))), ((int)(((byte)(163)))));
             this.CloseImageButton.Image = global::AZGH_Online_Enrollment_System.Properties.Resources._211651_128;
             this.CloseImageButton.ImageActive = null;
             this.CloseImageButton.Location = new System.Drawing.Point(321, 12);
@@ -168,7 +168,7 @@
             // 
             // MinimizeImageButton
             // 
-            this.MinimizeImageButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(87)))), ((int)(((byte)(155)))));
+            this.MinimizeImageButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(97)))), ((int)(((byte)(163)))));
             this.MinimizeImageButton.Image = global::AZGH_Online_Enrollment_System.Properties.Resources._1954552_128;
             this.MinimizeImageButton.ImageActive = null;
             this.MinimizeImageButton.Location = new System.Drawing.Point(300, 12);
@@ -225,7 +225,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
